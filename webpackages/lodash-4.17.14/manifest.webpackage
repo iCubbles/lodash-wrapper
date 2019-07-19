@@ -1,0 +1,32 @@
+{
+  "name": "lodash-4.17.14",
+  "groupId": "",
+  "version": "1.0.0",
+  "modelVersion": "10.0.0",
+  "docType": "webpackage",
+  "author": {
+    "name": "Edwin Gamboa",
+    "email": "edwingamboa355@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "man": [],
+  "artifacts": {
+    "apps": [],
+    "elementaryComponents": [],
+    "compoundComponents": [],
+    "utilities": [
+      {
+        "artifactId": "lodash",
+        "description": "wrapper for lodash 4.17.14",
+        "resources": [
+          {
+            "dev": "js/lodash.js",
+            "prod": "js/lodash.min.js"
+          }
+        ],
+        "dependencies": []
+      }
+    ]
+  }
+}
